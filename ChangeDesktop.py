@@ -9,7 +9,7 @@ import os
 import datetime
 
 url = "https://api.unsplash.com/photos/random"
-my_client_id = "?client_id=c220750f96347e0439d77a2bdbba9d916f1a1a4604196e35804d2c6a4ac4c731"
+my_client_id = "" #Unsplash told me to keep this a secret :)
 
 #prompts user for terms that will be used to search
 # queries = []
