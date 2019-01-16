@@ -20,6 +20,7 @@ my_client_id = "?client_id=c220750f96347e0439d77a2bdbba9d916f1a1a4604196e35804d2
 cur_dir = os.getcwd()
 queries = []
 
+#checks for .txt file with search terms. If it doesnt exists, program creates one
 if "search_terms.txt" in os.listdir(cur_dir):
 	#read txt file for queries; automates a few steps 
 	#after program has been run already
