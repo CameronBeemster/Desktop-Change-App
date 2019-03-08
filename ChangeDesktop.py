@@ -53,7 +53,7 @@ download = links['raw']
 filename = download[34:41] + ".jpg"
 
 #be sure this script has the correct path
-script = "osascript -e 'tell application \"System Events\" to tell every desktop to set picture to \"~/Documents/unsplash_program/" + filename + "\"'"
+script = "osascript -e 'tell application \"System Events\" to tell every desktop to set picture to \"~/Documents/Projects/unsplash_program/" + filename + "\"'"
 
 #working retrieval of a raw .jpg format of the given photo
 urllib.request.urlretrieve(download, download[34:41] + ".jpg")
